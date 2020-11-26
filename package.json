@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "JavaScript test for an interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
