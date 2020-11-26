@@ -26,7 +26,11 @@ const sortCompaniesByDate = (a, b) => {
  * 
  * @param {object} companies Transformed companies to sort
  */
-const sortCompaniesByQuantity = (companies) => Object.entries(companies).sort((a, b) => b[1] - a[1]).map(el => ({name: el[0], quantity: el[1]}))
+const sortCompaniesByQuantity = (companies) => 
+  Object
+    .entries(companies)
+    .sort((a, b) => b[1] - a[1])
+    .map(el => ({name: el[0], quantity: el[1]}))
 
 module.exports = {
   sortCompaniesByDate,
