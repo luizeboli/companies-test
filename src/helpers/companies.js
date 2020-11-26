@@ -24,7 +24,7 @@ const sortCompaniesByDate = (a, b) => {
  * Receives an array of companies with name as key and quantity of locations as value
  * Then returns the company with most locations
  * 
- * @param {object} companies Transformed companies to sort
+ * @param {object} companies Sorted companies by quantity of location
  */
 const sortCompaniesByQuantity = (companies) => 
   Object
