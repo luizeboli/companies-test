@@ -4,7 +4,7 @@ const { sortCompaniesByDate, sortCompaniesByQuantity } = require('./helpers')
 /**
  * Gets the oldest company
  * 
- * @returns {string} Company name
+ * @returns {object} Company object
  */
 const oldestActiveCompany = async () => {
   try {
@@ -24,7 +24,7 @@ const oldestActiveCompany = async () => {
 /**
  * Gets company with most locations
  * 
- * @returns {string} Company name
+ * @returns {object} Company object
  */
 const mostLocationsCompany = async () => {
   try {
