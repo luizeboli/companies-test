@@ -1,4 +1,6 @@
-# JavaScript test
+# JavaScript
+
+This is a simple example of how we can sort and group things in JavaScript
 
 ## Getting Started
 
