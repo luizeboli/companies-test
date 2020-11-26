@@ -1,6 +1,8 @@
 # JavaScript
 
-This is a simple example of how we can sort and group things in JavaScript
+This is a simple example about fetching, grouping and ordering data from an REST API
+
+Maybe there's better ways to implement this. I would be happy if we can discuss about it 🤜🏻 🤛🏻.
 
 ## Getting Started
 
