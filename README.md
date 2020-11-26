@@ -1,6 +1,6 @@
 # JavaScript
 
-This is a simple example about fetching, grouping and ordering data from an REST API
+This is a simple example about fetching, grouping and ordering data from a REST API
 
 Maybe there's better ways to implement this. I would be happy if we can discuss about it 🤜🏻 🤛🏻.
 
